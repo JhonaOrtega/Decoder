@@ -3,10 +3,6 @@ body {
     font-family: 'Inter';
 }
 
-.logo {
-    width: 120px;
-    height: 48px;
-}
 
 .logo-img {
     position: absolute;
@@ -42,10 +38,10 @@ body {
     width: 400px;
     height: 944px;
     position: absolute;
-    left: 1000px;
-    top: 40px;
-    bottom: 40px;
-    right: 40px;
+    left: 69.4%;
+    top: 3.9%;
+    bottom: 3.9%;
+    right: 2.778%;
     background-color: white;
     border-radius: 32px;
 }
@@ -78,4 +74,39 @@ body {
     color: #495057;
     order: 1;
 
+}
+
+.disclaimer::before{
+    content: image-set("exclamation_mark.png");
+    padding-right: 5px;
+}
+
+.disclaimer{
+    width: max-content;
+    height: 18px;
+    position: relative;
+    top: 851px;
+    bottom: 155px;
+    left: 264px;
+    right: 971px;
+}
+
+button{
+    position: relative;
+    border-radius: 24px;
+    top: 860px;
+    width: 328px;
+    height: 67px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.encrypt-button{
+    background-color: #0A3871;
+}
+
+.decrypt-button{
+    background-color: #D8DFE8;
 }
