@@ -1,0 +1,81 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+}
+
+.logo-img {
+    position: absolute;
+    top: 3.91%;
+    left: 5.83%;
+    width: 31.09px;
+    height: 48px;
+}
+
+.text-input {
+    font-weight: 400;
+    width: 577px;
+    height: 48px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #E5E5E5;
+    color: #0A3871;
+    border: none;
+}
+
+.text-input::placeholder {
+    color: #0A3871;
+}
+
+.text-input-container {
+    position: absolute;
+    top: 16.4%;
+    left: 16.667%;
+}
+
+.text-output-container {
+    width: 400px;
+    height: 944px;
+    position: absolute;
+    left: 1000px;
+    top: 40px;
+    bottom: 40px;
+    right: 40px;
+    background-color: white;
+    border-radius: 32px;
+}
+
+.not-found-output-container {
+    margin: 243px auto;
+}
+
+.not-found-output-container p {
+    text-align: center;
+    align-self: stretch;
+    flex-grow: 0;
+    flex: none;
+
+}
+
+.no-message-found {
+    font-weight: 700;
+    size: 24px;
+    line-height: 120%;
+    order: 0;
+    color: #343A40;
+}
+
+.please-enter-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    order: 1;
+
+}
